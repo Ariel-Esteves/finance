@@ -20,7 +20,7 @@ class _WalletState extends State<Wallet> {
     super.initState();
     balanceController.text = '0.00';
     incomeController.text = '0.00';
-    expenseController.text = '0.00';
+    expenseController.text = '0.00'
     _loadWalletData();
   }
 
